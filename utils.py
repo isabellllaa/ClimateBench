@@ -3,8 +3,8 @@ import pandas as pd
 import xarray as xr
 from eofs.xarray import Eof
 
-data_path_outputs = "configure"
-data_path_inputs = "configure"
+data_path_outputs = "configure_outputs"
+data_path_inputs = "configure_inputs"
 
 min_co2 = 0.
 max_co2 = 9500
